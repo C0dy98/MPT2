@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Major Project Task #2</title>
+        <!-- external and on-page CSS goes here -->
+		<link rel="stylesheet" href="MPT2.css" media="all">
+		<!-- external and on-page JavaScript goes here -->
+    <script src="MPT2.js"></script>
+	</head>
+	<body>
+		<h1>Major Project Task #2</h1>
+        <h2>Distance Conversion:</h2>
+        <input id="input1" type="number" 
+  oninput="lengthConverter0(this.value)" onchange="lengthConverter0(this.value)"></input>
+        <div style="width: 200px;">
+            <select id="customSelect1">
+              <option id = "o1" value="0">Feet</option>
+              <option id = "o1" value="1">cm</option>
+              <option id = "o1" value="2">Meters</option>
+              <option id = "o1" value="3">Yards</option>
+            </select>
+        </div>
+                <p>to</p>
+            <div style="width: 200px;">
+            <select id="customSelect2">
+              <option id = "o2" value="0">Feet</option>
+              <option id = "o2" value="1">cm</option>
+              <option id = "o2" value="2">Meters</option>
+              <option id = "o2" value="3">Yards</option>
+            </select>
+        </div>
+        <p> = <span id="output"></span></p>
+	</body>
+</html>
